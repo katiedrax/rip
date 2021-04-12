@@ -1,0 +1,252 @@
+---
+title: "STUDY PROTOCOL - V0.1"
+subtitle: "Gamification in open research education"
+author: "Katie Drax, Kirsty Merret, Marcus Munafò, and Christopher Warren"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: word_document
+---
+
+# Background
+
+Members of the University of Bristol’s Research Data Service created the Researchers, Impact, and Publications (RIP) game (Merrett & Warren, 2020). 
+Adapted from “Cards Against Humanity”, the RIP game aims help people learn about research data management and its relationship to funding and publishing research. 
+The Research Data Service are in the process of creating an online version of the card game using Roll20.com. 
+Data in November 2020 showed the RIP game data had been downloaded in over 150 different locations.
+Educational interventions can raise researchers’ awareness and understanding of data sharing and gamifying these interventions could encourage engagement with them and increase uptake within the community.
+
+* Theory of behaviour change & gamification
+* Empirical evidence on previous gamification in educational interventions
+
+## Study rationale 
+
+The RIP game could have numerous and low-cost applications if effective. 
+The current cards are in English and focus on data management but could be translated and adapted for different topics. 
+A randomised controlled trial (RCT) could establish the efficacy of the cards in increasing data sharing since participants can be followed over time. 
+We plan to conduct a pilot to inform a future RCT and confirm its feasibility.
+
+# Study Objective and Hypotheses
+
+The first research question will be: "does the RIP game improve understanding of data management?".
+To answer this research question we will randomise groups to the intervention or a control group and they will complete a questionnaire before and after the intervention.
+The questionnaire will contain a multiple choice quiz on data management.
+The primary outcome will be the number of correct answers people provide to the data management quiz.
+
+The second research question will be: "what is the feasibility of conducting a RCT of the RIP game's efficacy in increasing data sharing?".
+To answer this research question we will conduct a pilot which will provide evidence for the feasibility and costs of a full RCT.
+We will also develop a measure to assess the quality of data sharing.
+
+# Study Design
+
+## Pilot 
+
+The pilot will compare three arms: the RIP game, UK Reproducibility Network (UKRN) primer on data sharing, and a control group who will play an online quiz together.
+We will need to adapt the existing RIP game into an online version before beginning the pilot. 
+Creators also designed the game to be delivered with an educator so designing a glossary or concept bank document will help adapt the game for play without an educator.
+
+## Data sharing measure
+
+To measure data sharing across multiple disciplines, institutions, languages, and countries we will need to measure universal indicators of data sharing. 
+There are numerous checklists and guidelines for data management plans and data sharing, but most are designed for specific types of data and few aims to be universal. 
+One example of famous universal guidelines are the FAIR principles who claim, “All scholarly digital research objects—from data to analytical pipelines—benefit from application of these principles”. 
+Regarding universality, Kirsty Merrett and Christopher Warren suggested the most universal aspect of data sharing will be the data deposit record. 
+
+The record includes:
+
+* Data
+* File formats
+* License
+* Creator(s) names
+* Identifier
+* Metadata
+
+Our data sharing measure could adapt the FAIR principles, Kirsty and Christopher’s suggestions, or a combination.
+Essentially universal standards about the “content” of shared data will be very difficult to develop. 
+Universal standards about the presence of shared data will be easier.
+
+# Study Site
+
+Participants in all three arms will meet virtually or in-person  to play the RIP game, online quiz, or discuss the UKRN primer.
+After their meeting they will complete the online questionnaire.
+
+# Participants and Recruitment
+
+We will recruit existing ReproducibiliTea journal clubs and randomise them to one of the arms.
+ReproducibiliTea is a good candidate for this pilot because it is an international journal club  series that we have existing relationships with, for example KD is a co-lead of the University of Bristol ReproducibiliTea club and a member of the ReproducibiliTeam.
+Many of the groups already meet regularly and are English speaking so they will be easy to form and randomise to the three arms.
+The internationality of the group will allow us to recruit people from different countries and contexts and our existing relationships with the clubs, and series as a whole, means we can access them and invite them to participate.
+Participants will receive financial reimbursement for their time.
+
+## Inclusion criteria
+
+* 18 years old
+
+## Sample size determination
+
+On 9 April 2021, reproducibilitea.org registered 128 ReproducibiliTea journal clubs across 25 countries.
+Some of these clubs may be inactive or uncontactable so we cannot expect to recruit all 128 clubs.
+An event organised by the ReproducibiliTeam in November 2020 saw attendees from at least 30 ReproducibiliTea groups suggesting 30 are active and engaged with the ReproducibiliTeam.
+Based on this attendance, we will aim to recruit as many clubs as possible but expect around 30 clubs to be interested.
+
+## Withdrawal of participants
+
+We will inform participants that they can withdraw from the study at any time before they begin their post-intervention quesionnaire.
+Only individuals who submit their post-intervention questionnaire will be reimbursed.
+
+# Randomisation
+
+Cluster randomisation is preferable here to individual randomisation.
+
+# Measures and Materials
+
+The study will require the following materials
+
+* Consent form
+* Participant information sheet
+* Intervention instructions
+* Post-intervention questionnaire
+
+# Procedures
+
+1. Recruit ReproducibiliTea clubs to the study
+3. Information sheet sent to ReproducibiliTea club organiser.
+We will ask them to distribute the sheet to their members and will answer any questions they have.
+4. Randomise the club to one of the three arms, if they agree to participate.
+5. Send organiser the instructions for the intervention arm they are randomised to.
+4. ReproducibiliTea club holds intervention meeting when convenient
+5. ReproducibiliTea members respond to post-intervention quesionnaire
+6. Members reimbursed
+
+# Statistical Plan
+
+`r # xxxx`
+
+# Ethical Considerations and Informed Consent
+
+Ethics approval has will be obtained from the School of Psychological Science Research Ethics Committee at the University of Bristol `r # (Approval Code: )`. 
+The study will be conducted according to the revised Declaration of Helsinki (2013) and the 1996 ICH Guidelines for Good Clinical Practice E6(R1). 
+The investigator will explain the nature, purpose and risks of the study to the participant. 
+We will send the information sheet to the ReproducibiliTea club organiser in advance of the study session and they will distribute it to their members.
+There will be no time restriction on how long organisers take to respond, with the exception that organisers who respond after all study places have been filled will not be offered a place on the study. 
+Therefore, participants will be given sufficient time to read the information, consider any implications, and raise any questions with the investigators prior to making a decision to participate. 
+`r # is this enough for informed consent?`
+On [time when this will happen?], participants will be given the opportunity to read the information sheet again and ask the investigator questions. 
+Written consent will then be obtained [when should this be done].
+Participants will be informed that they are free to withdraw at any time before they begin their post-intervention questionnaire.
+
+# Safety
+
+There are no expected hazards, due to the study consisting of a meeting and questionnaire of non-vulnerable people that includes no personal or sensitive topics or questions.
+
+# Data Management
+
+All aspects of the General Data Protection Regulation (GDPR) and the Data Protection Act (DPA) 2018 will be adhered to.
+Electronic data will be anonymised by a unique numeric identifier. 
+Original computer data files will be backed up on a secured University of Bristol network drive.
+In accordance with the FAIR (Findable, Accessible, Interoperable, Reusable) principles (Wilkinson, 2016), and at the end of the study, electronic study data (including finalised data sheet) will be transferred to a designated University of Bristol Research Data Storage Facility (https://data.bris.ac.uk/data/) afor long-term archiving. 
+Study data will be kept for a minimum of 15 years. 
+At the appropriate time the data sheet will be locked and made open using the University of Bristol Research Data Repository.
+Consent forms will be retained by the School of Psychological Science for a period of 10 years after study completion.
+
+## Participant contact details
+
+Participant contact details will be retained for reimbursement. 
+They will be destroyed once all participants successfully receive their reimbursement or one year after study completion, whichever comes first.
+
+## Revoked data
+
+Data will be anonymous so we are unable to withdraw data as there is no way to tell which observation belongs to which participant. 
+
+# Quality Control and Quality Assurance
+
+```{r, echo=F}
+#* bots
+#* satisficing/random responding = low effort, skimming instructions, #skimming questions, guessing answers
+#* researching ansswers
+```
+
+We will randomise the order of questionnaire items and response options to reduce order effects. 
+We will ask participants not do not research  answers to questions and ask them at the end if they did. 
+We will compare the results of participants who did use the internet for their answer with those who did not.
+`r # yeah?`
+We will also exclude any responses completed in an implausibly short amount of time on the questionnaire.
+Collecting the data using Qualtrics creates the risk of automated form fillers ("bots") and duplicate responses.
+We will include at least one compulsory open-ended question and a false question to identify bots.
+Post-study checks will allow us to identify duplicate responses and exclude all but the first response.
+
+# Insurance
+
+This study will be sponsored by the University of Bristol. 
+The University has Public Liability Insurance to cover the liability of the University to research participants. 
+In the event that something goes wrong and a participant is harmed during the research study there are no special compensation arrangements.
+If a participant is harmed and this is due to someone's negligence then they may have grounds for a legal action for compensation against Bristol University or one of the other parties to the research, but they may have to pay their own legal costs.
+
+# Publication Policy
+
+The findings from this research study may be published in an appropriate scientific journal (and made available open access), and/or presented at an appropriate meeting.
+Study data will be collected and held by the study investigators.
+The data will be made available for sharing via a University of Bristol online data repository.
+
+# Study Personnel
+
+Katie Drax
+
+School of Psychological Science
+
+12a Priory Rd
+
+Bristol BS8 1TU
+
+katie.drax@bristol.ac.uk  
+
+
+Kirsty Merrett
+
+Augustine's Courtyard
+
+Orchard Lane
+
+Bristol BS1 5DS
+
+j.k.merrett@bristol.ac.uk
+
+Marcus Munafò 
+
+School of Psychological Science
+
+12a Priory Road
+
+Bristol, BS8 1TU
+
+marcus.munafo@bristol.ac.uk
+
+
+Christopher Warren
+
+Augustine's Courtyard
+
+Orchard Lane
+
+Bristol BS1 5DS
+
+Christopher.Warren@bristol.ac.uk
+
+
+# Contributions and Authorship
+
+KD wrote the first draft of the protocol and is the guarantor of the project. 
+MM provided feedback and comments for the protocol and will supervise the project.
+
+# Funding Source
+
+This study is supported by the John Climax Benevolent Fund which supports KD’s PhD studentship and provided funds for participant reimbursement.
+The funder will have no involvement in any aspects of the study design and conduct.
+
+# Conflicts of Interest
+
+KM and CW are the creators of the RIP game.
+
+# References
+
+Merrett, K., & Warren, C. (2020). Researchers, Impact & Publications (R.I.P.) Game data (01-2020). https://doi.org/10.5523/bris.1nufzjw3m9ho72cwisj1pwc75h
+
+Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18 
