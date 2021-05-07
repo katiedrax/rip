@@ -12,25 +12,29 @@ csl: apa.csl
 
 # Background
 
+* Why open data
+
 Researchers who share what research data they can so that others can find, access, and reuse it allow their data to increase the rigour, reproducibility, impact, and efficiency of their own and others' research.
 For example, open data can make contributions to a potentially infinite number of projects and uses, allow others to evaluate the evidence underlying claims, make research methods and results more transparent, and facilitate replication and validation studies.
 Individuals, institutions, states [@theopenresearchdatataskforce2018], and intergovernmental organisations [@2021] all recognise the benefits of sharing data, compared to not, for profit and non-profit enterprises.
-However, data sharing is not an inherent good and the costs and benefits of sharing data for producers and consumers depend on factors from the type of data to standards of ethics, intellectual property, and interoperability.
 
-* Bezuidenhout pg 41 = getting buy-in from researchers
-* 4 critiques -https://blogs.lse.ac.uk/impactofsocialsciences/2013/11/27/four-critiques-of-open-data-initiatives/
+* why not open data (barriers, consequences, variation across )
 
-For example, data sharing will unfairly  if researchers who share their data are less likely to 
+Despite the support for and benefits of open data there are structural barriers to if and how researchers share their data.
+Barriers and facilitators of data sharing vary across different contexts such as the type of data, research discipline, standards of ethics, privacy issues, intellectual property rights, and interoperability demands [@tenopir2015].
+For example, if data sharing is voluntary and not mandated, researchers who share their data may face greater career costs than those who do not share.
+Research performance based funding systems, such as the UK's Research Excellence Framework,  use publication counts, journal impact factors, and citations to inform their assessments [@europeancommission.jointresearchcentre.2016]. 
+It follows that researchers' number of publications, citations, and the impact factor of the journals they publish in affect researchers' opportunities for employment, promotion, and prizes.
+Published databases do not.
 
-Despite the clear benefits of open data for future research, journals are reluctant to mandate data sharing.
-In study of 700 journals existing in 2018 @kim2020 only 13.8% mandated data sharing.
-Structural barriers discourage data sharing.
-Researchers' number of publications, citations, and the impact factor of the journals they publish in affect researchers' opportunities for employment, promotion, and prizes.
-This follows from research performance based funding systems, such as the UK's Research Excellence Framework, which use publication counts, journal impact factors, and citations to inform their assessments [@europeancommission.jointresearchcentre.2016]. 
-Another structural barrier is the lack of knowledge researchers have for managing and sharing data.
+Researchers face different issues if data sharing is mandatory, though this is currently rare [@kim2020].
+One barrier to both voluntary and mandatory data sharing is the lack of knowledge researchers have for managing and sharing data.
 The FAIR principles outline four key attributes for shared data: findable, accessible, interoperable, and reuseable. 
 The accessibility and usability of the FAIR principles themselves to researchers is uncertain.
 Researchers do not understand what to share or how to share it. [ citation]
+
+** Bezuidenhout pg 41 = getting buy-in from researchers
+** 4 critiques -https://blogs.lse.ac.uk/impactofsocialsciences/2013/11/27/four-critiques-of-open-data-initiatives/ @kitchin2013
 
 As with many systemic issues, barriers to data sharing will require a restructuring of existing incentives, training, and  workflows in research.
 There is no silver bullet.
