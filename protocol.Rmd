@@ -12,35 +12,25 @@ csl: apa.csl
 
 # Background
 
-Researchers who share what research data they can so that others can find, access, and reuse it allow their data to increase the rigour, reproducibility, impact, and efficiency of their own and others' research.
-For example, open data can make contributions to a potentially infinite number of projects and uses, allow others to evaluate the evidence underlying claims, make research methods and results more transparent, and facilitate replication and validation studies.
-Individuals, institutions, states [@theopenresearchdatataskforce2018], and intergovernmental organisations [@2021] all recognise the benefits of sharing data, compared to not, for profit and non-profit enterprises.
-Despite the support for and benefits of open data there are structural barriers to if and how researchers share their data.
-These barriers and facilitators of data sharing vary across different contexts such as the type of data, research discipline, standards of ethics, privacy issues, intellectual property rights, and interoperability demands [@tenopir2015].
-For one, published databases lack the infrastructure, standards, and recognition that publication  publications have. 
-Namely they suffer from less well-funded respositories, standardised metadata and citation practices [@yoon2021; @park2018], and inclusion in research performance based funding systems [@europeancommission.jointresearchcentre.2016].
-As a result, researchers may believe that sharing their data will disadvantage them compared to researchers who do not share  share their data [@kim2016a].
+Funders and publishers are increasingly requiring data sharing as a condition of funding or publication. Data sharing can encourage reuse, and serve as a quality control process that increases the rigour, reproducibility, impact, and efficiency of research. 
+However, despite the support for and benefits of data sharing, there are barriers to this, in particular lack of awareness of good practice. 
+For example, there is growing evidence that many data deposits on uncurated repositories such as the Open Science Framework use a proprietary format, or include potentially identifying information about participants. 
+Other barriers include researcher attitudes. 
+For example, researchers may believe that sharing their data will disadvantage them compared to researchers who do not share share their data (Kim & Stanton, 2016).
+Increasing data sharing will therefore require infrastructure (e.g., institutional repositories), incentives (e.g., recognition of data deposits as research outputs), and training. 
+Lack of knowledge about managing and sharing data is a barrier to both voluntary and mandatory data sharing. 
+Educational interventions therefore offer one way to overcoming this barrier. 
+Gamifying these interventions could encourage engagement with them and increase uptake within the community, given evidence that XXXX.
 
-As with many systemic issues, barriers to data sharing will require a restructuring of existing incentives, training, and  workflows in research.
-With the support from scientific gatekeepers like governments, [multi-state alliances?], journals, and funders we can expect these instiuttions to introduce "top-down" intiatives to increase data sharing, such as mandotory data sharing, alongside community-led intiatives.
-Community-led intitatives can include journal clubs, like [Reproduciblitea](reproducibilitea.org).
-
-* more lead in
-
-Members of the University of Bristol’s Research Data Service created the Researchers, Impact, and Publications (RIP) game (Merrett & Warren, 2020). 
-Adapted from “Cards Against Humanity”, the RIP game aims help people learn about research data management and its relationship to funding and publishing research. 
-The Research Data Service are in the process of creating an online version of the card game using Roll20.com. 
-Data in November 2020 showed the RIP game data had been downloaded in over 150 different locations.
-As the lack of knowledge researchers have for managing and sharing data is a barrier to both voluntary and mandatory data sharing, educational interventions offer a way to overcome a barrier in multiple contexts.
-Gamifying these interventions could encourage engagement with them and increase uptake within the community.
-* Theory of behaviour change & gamification==
+* Theory of game-based/gamified learning?
 * Empirical evidence on previous gamification in educational interventions
 
-
-The RIP game could have numerous and low-cost applications if effective. 
-The current cards are in English and focus on data management but could be translated and adapted for different topics. 
-A randomised controlled trial (RCT) could establish the efficacy of the cards in increasing data sharing since participants can be followed over time. 
-We plan to conduct a pilot to inform a future RCT and confirm its feasibility.
+The University of Bristol Research Data Service recently created the Researchers, Impact, and Publications (RIP) game (Merrett & Warren, 2020). 
+Adapted from “Cards Against Humanity”, the RIP game aims help people learn about research data management and its relationship to funding and publishing research. 
+The Research Data Service are in the process of creating an online version of the card game using Roll20.com.
+As of November 2020, the RIP game data had been downloaded at over 150 different locations. 
+If shown to be effective, the RIP game could form part of a comprehensive approach to increasing the degree and quality of data sharing across the sector.
+This study is a feasibility and pilot study of the RIP game as an educational intervention to improve attitudes towards and knowledge of data sharing, to inform a future RCT.
 
 `r # do we want to keep participant identification forms so we can see if their data sharing increases?`
 
