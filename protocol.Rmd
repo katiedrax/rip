@@ -1,6 +1,6 @@
 ---
 title: "STUDY PROTOCOL (V0.1)"
-subtitle: "Does gamification increased XXXX of data sharing?"
+subtitle: "Does gamification increased [positive attitudes/capability] of data sharing?"
 author: "Katie Drax, Kirsty Merret, Robert Thibault, Christopher Warren, and Marcus Munafò"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
@@ -12,48 +12,34 @@ csl: apa.csl
 
 # Background
 
-* Why open data
-
 Researchers who share what research data they can so that others can find, access, and reuse it allow their data to increase the rigour, reproducibility, impact, and efficiency of their own and others' research.
 For example, open data can make contributions to a potentially infinite number of projects and uses, allow others to evaluate the evidence underlying claims, make research methods and results more transparent, and facilitate replication and validation studies.
 Individuals, institutions, states [@theopenresearchdatataskforce2018], and intergovernmental organisations [@2021] all recognise the benefits of sharing data, compared to not, for profit and non-profit enterprises.
-
-* why not open data (barriers, consequences, variation across )
-
 Despite the support for and benefits of open data there are structural barriers to if and how researchers share their data.
-Barriers and facilitators of data sharing vary across different contexts such as the type of data, research discipline, standards of ethics, privacy issues, intellectual property rights, and interoperability demands [@tenopir2015].
-For example, if data sharing is voluntary and not mandated, researchers who share their data may face greater career costs than those who do not share.
-Research performance based funding systems, such as the UK's Research Excellence Framework,  use publication counts, journal impact factors, and citations to inform their assessments [@europeancommission.jointresearchcentre.2016]. 
-It follows that researchers' number of publications, citations, and the impact factor of the journals they publish in affect researchers' opportunities for employment, promotion, and prizes.
-Published databases do not.
-
-Researchers face different issues if data sharing is mandatory, though this is currently rare [@kim2020].
-One barrier to both voluntary and mandatory data sharing is the lack of knowledge researchers have for managing and sharing data.
-The FAIR principles outline four key attributes for shared data: findable, accessible, interoperable, and reuseable. 
-The accessibility and usability of the FAIR principles themselves to researchers is uncertain.
-Researchers do not understand what to share or how to share it. [ citation]
-
-** Bezuidenhout pg 41 = getting buy-in from researchers
-** 4 critiques -https://blogs.lse.ac.uk/impactofsocialsciences/2013/11/27/four-critiques-of-open-data-initiatives/ @kitchin2013
+These barriers and facilitators of data sharing vary across different contexts such as the type of data, research discipline, standards of ethics, privacy issues, intellectual property rights, and interoperability demands [@tenopir2015].
+For one, published databases lack the infrastructure, standards, and recognition that publication  publications have. 
+Namely they suffer from less well-funded respositories, standardised metadata and citation practices [@yoon2021; @park2018], and inclusion in research performance based funding systems [@europeancommission.jointresearchcentre.2016].
+As a result, researchers may believe that sharing their data will disadvantage them compared to researchers who do not share  share their data [@kim2016a].
 
 As with many systemic issues, barriers to data sharing will require a restructuring of existing incentives, training, and  workflows in research.
-There is no silver bullet.
-With the support from scientific gatekeepers like governments, [multi-state alliances?], journals, and funders we can expect these instiuttions to introduce "top-down" intiatives to increase data sharing and that they will support community-led intiatives.
-Community initatives hold an important place in the open research calendar.
-[Importance of peer-led / community initiatives in current landscape (e.g. ReproducibiliTea)]
+With the support from scientific gatekeepers like governments, [multi-state alliances?], journals, and funders we can expect these instiuttions to introduce "top-down" intiatives to increase data sharing, such as mandotory data sharing, alongside community-led intiatives.
+Community-led intitatives can include journal clubs, like [Reproduciblitea](reproducibilitea.org).
+
+* more lead in
 
 Members of the University of Bristol’s Research Data Service created the Researchers, Impact, and Publications (RIP) game (Merrett & Warren, 2020). 
 Adapted from “Cards Against Humanity”, the RIP game aims help people learn about research data management and its relationship to funding and publishing research. 
 The Research Data Service are in the process of creating an online version of the card game using Roll20.com. 
 Data in November 2020 showed the RIP game data had been downloaded in over 150 different locations.
-Educational interventions can raise researchers’ awareness and understanding of data sharing and gamifying these interventions could encourage engagement with them and increase uptake within the community.
+As the lack of knowledge researchers have for managing and sharing data is a barrier to both voluntary and mandatory data sharing, educational interventions offer a way to overcome a barrier in multiple contexts.
+Gamifying these interventions could encourage engagement with them and increase uptake within the community.
+* Theory of behaviour change & gamification==
+* Empirical evidence on previous gamification in educational interventions
+
+
 The RIP game could have numerous and low-cost applications if effective. 
 The current cards are in English and focus on data management but could be translated and adapted for different topics. 
 A randomised controlled trial (RCT) could establish the efficacy of the cards in increasing data sharing since participants can be followed over time. 
-
-* Theory of behaviour change & gamification
-* Empirical evidence on previous gamification in educational interventions
-
 We plan to conduct a pilot to inform a future RCT and confirm its feasibility.
 
 `r # do we want to keep participant identification forms so we can see if their data sharing increases?`
