@@ -12,8 +12,17 @@ csl: apa.csl
 
 # Background
 
-Funders and publishers are increasingly requiring data sharing as a condition of funding or publication. Data sharing can encourage reuse, and serve as a quality control process that increases the rigour, reproducibility, impact, and efficiency of research. 
-However, despite the support for and benefits of data sharing, there are barriers to this, in particular lack of awareness of good practice. 
+```{r, questions}
+# This is specific to UK & Europe but RTEa is international so how do we make this fit?
+# Why did you delete the other paragraphs?
+# I cannot provide a reference for data sharing can encourage whatever this is a massively complicated issues we can't distill it to a sentence without it being meaningless e.g. "In certain contexts data sharing can do x"
+# I feel like you've just rewritten it and I don't agree with what you've written
+
+```
+
+In the UK, Funders and publishers are increasingly requiring data sharing as a condition of funding or publication `r #reference`.
+Data sharing can encourage reuse, and serve as a quality control process that increases the rigour, reproducibility, impact, and efficiency of research `r #add reference`. 
+However, despite the support for and benefits of data sharing, there are barriers to this, in particular lack of awareness of good practice.
 For example, there is growing evidence that many data deposits on uncurated repositories such as the Open Science Framework use a proprietary format, or include potentially identifying information about participants. 
 Other barriers include researcher attitudes. 
 For example, researchers may believe that sharing their data will disadvantage them compared to researchers who do not share share their data (Kim & Stanton, 2016).
