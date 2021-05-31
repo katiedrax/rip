@@ -1,6 +1,6 @@
 ---
-title: "STUDY PROTOCOL (V0.1)"
-subtitle: "Does gamification increased [positive attitudes/capability] of data sharing?"
+title: "STUDY PROTOCOL"
+subtitle: "Does a data sharing game increase engagement with data sharing training?"
 author: "Katie Drax, Kirsty Merret, Robert Thibault, Christopher Warren, and Marcus Munafò"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
@@ -12,57 +12,48 @@ csl: apa.csl
 
 # Background
 
-```{r, questions}
-# This is specific to UK & Europe but RTEa is international so how do we make this fit?
-# Why did you delete the other paragraphs?
-# I cannot provide a reference for data sharing can encourage whatever this is a massively complicated issues we can't distill it to a sentence without it being meaningless e.g. "In certain contexts data sharing can do x"
-# I feel like you've just rewritten it and I don't agree with what you've written
+In the UK, funders and publishers are increasingly requiring data sharing as a condition of funding or publication [@2009; @2017;@2020].
+Several organisations [@theopenresearchdatataskforce2018; @2021] and individuals, including authors of this study [@munafo2014; @munafo2017], have advocated for the benefits of data sharing, including how this can encourage reuse, and serve as a quality control process that increases the rigour, reproducibility, impact, and efficiency of research 
+Despite this support data sharing remains uneven in practice, and is either not done (despite funder and journal requirements) or not done well. 
+For example, there is growing evidence that many data deposits on non-curated repositories are not of an adequate standard; deposits do not inlcude a data dictionary, use a proprietary formet, or include potentially identifying information about participants.
+Other barriers include researcher attitudes.
+For example, researchers may believe that sharing their data will disadvantage them compared to researchers who do not share share their data [@kim2016a]
 
-```
-
-In the UK, Funders and publishers are increasingly requiring data sharing as a condition of funding or publication `r #reference`.
-Data sharing can encourage reuse, and serve as a quality control process that increases the rigour, reproducibility, impact, and efficiency of research `r #add reference`. 
-However, despite the support for and benefits of data sharing, there are barriers to this, in particular lack of awareness of good practice.
-For example, there is growing evidence that many data deposits on uncurated repositories such as the Open Science Framework use a proprietary format, or include potentially identifying information about participants. 
-Other barriers include researcher attitudes. 
-For example, researchers may believe that sharing their data will disadvantage them compared to researchers who do not share share their data (Kim & Stanton, 2016).
-Increasing data sharing will therefore require infrastructure (e.g., institutional repositories), incentives (e.g., recognition of data deposits as research outputs), and training. 
-Lack of knowledge about managing and sharing data is a barrier to both voluntary and mandatory data sharing. 
-Educational interventions therefore offer one way to overcoming this barrier. 
-Gamifying these interventions could encourage engagement with them and increase uptake within the community, given evidence that XXXX.
-
-* Theory of game-based/gamified learning?
-* Empirical evidence on previous gamification in educational interventions
+Therefore, as well as infrastructure (e.g., institutional repositories) and incentives (e.g., recognising data deposits as research outputs), effective data sharing will require training. 
+Lack of knowledge about managing and sharing data, including how to do this effectively, is a barrier to both voluntary and mandatory data sharing. However, researchers may not undertake relevant training, perhaps because of a combination of limited time and a lack of awareness of the need for training. 
+Educational interventions offer one way to overcoming this barrier. 
+Gamified interventions, in particular, could encourage initial engagement with data sharing training. 
+However, a recent review of the gamification literature concluded that the effects of gamification are poorly understood, with limited evidence regarding whether gamification does indeed increase engagement [@dichev2017].
 
 The University of Bristol Research Data Service recently created the Researchers, Impact, and Publications (RIP) game (Merrett & Warren, 2020). 
+The creators' initial intention for the game was to use it as a talking point, or icebreaker, with people who were interested in data sharing. 
+The game was not designed with a specific theoretical framework or outcome in mind - the creators expected others to use it in whatever way they saw fit.
 Adapted from “Cards Against Humanity”, the RIP game aims help people learn about research data management and its relationship to funding and publishing research. 
 The Research Data Service are in the process of creating an online version of the card game using Roll20.com.
 As of November 2020, the RIP game data had been downloaded at over 150 different locations. 
-If shown to be effective, the RIP game could form part of a comprehensive approach to increasing the degree and quality of data sharing across the sector.
-This study is a feasibility and pilot study of the RIP game as an educational intervention to improve attitudes towards and knowledge of data sharing, to inform a future RCT.
+If shown to be effective in promoting a willingness to engage in data sharing training, the RIP game could form part of a comprehensive approach to increasing the degree and quality of data sharing across the sector.
+This study is a randomized controlled trial of the RIP game as an educational intervention to improve attitudes towards, and willingness to engage in, data sharing training.
 
 `r # do we want to keep participant identification forms so we can see if their data sharing increases?`
 
 # Study Objective and Hypotheses
 
-The first research question will be: "does the RIP game improve understanding of data management?".
-To answer this research question we will randomise groups to the intervention or a control group and they will complete a questionnaire before and after the intervention.
-The questionnaire will contain a multiple choice quiz on data management.
-The primary outcome will be the number of correct answers people provide to the data management quiz.
+Our primary aim is to evaluate the impact of the RIP game on attitudes towards, and willingness to engage in, data sharing training, compared to the UK Reproducibility Network data sharing primer [@towse2020].
 
-The second research question will be: "what is the feasibility of conducting a RCT of the RIP game's efficacy in increasing data sharing?".
-To answer this research question we will conduct a pilot which will provide evidence for the feasibility and costs of a full RCT.
-We will also develop a measure to assess the quality of data sharing.
+We hypothesise that participants who complete the RIP game will report more positive attitudes towards data sharing training, and be more likely to indicate a willingness to attend a data sharing workshop, than participants in the control condition. `r # isn't this a bit much? do we have the evidence?`
 
 # Study Design
 
-## Pilot 
+This is a cluster randomized trial - ReproducibiliTea journal clubs will be randomized to complete the [online version of the RIP game](https://app.roll20.net/join/9526650/nPTYBw) as a group, or to read and discuss, the UK Reproducibility Network data sharing primer [@towse2020].
+The creators of the RIP game initially designed the game to be delivered with an educator so designing a glossary or concept bank document will help adapt the game for play without an educator.
 
-The pilot will compare three arms: the RIP game, UK Reproducibility Network (UKRN) primer on data sharing, and a control group who will play an online quiz together.
-We will need to adapt the existing RIP game into an online version before beginning the pilot. 
-Creators also designed the game to be delivered with an educator so designing a glossary or concept bank document will help adapt the game for play without an educator.
+## Outcome measures
 
-## Data sharing measure
+### Engagement questionnaire
+
+`r # add`
+
+### Data sharing measure
 
 To measure data sharing across multiple disciplines, institutions, languages, and countries we will need to measure universal indicators of data sharing. 
 There are numerous checklists and guidelines for data management plans and data sharing, but most are designed for specific types of data and few aims to be universal. 
@@ -84,14 +75,18 @@ Universal standards about the presence of shared data will be easier.
 
 # Study Site
 
-Participants in all three arms will meet virtually or in-person  to play the RIP game, online quiz, or discuss the UKRN primer.
-After their meeting they will complete the online questionnaire.
+Journal clubs will meet virtually or in-person to play the RIP game, or read and discuss the UKRN primer. 
+After their meeting, individual participants in the journal club will each complete the online questionnaire.
 
 # Participants and Recruitment
 
 We will recruit existing ReproducibiliTea journal clubs and randomise them to one of the arms.
-ReproducibiliTea is a good candidate for this pilot because it is an international journal club  series that we have existing relationships with, for example KD is a co-lead of the University of Bristol ReproducibiliTea club and a member of the ReproducibiliTeam.
-Many of the groups already meet regularly and are English speaking so they will be easy to form and randomise to the three arms.
+ReproducibiliTea is an international journal club  series.
+Started at the University of Oxford in 2018 by PhD students, early career researchers in other institutions soon set up their own clubs.
+As of 1 June 2021 there are 133 ReproducibiliTea clubs across 25 countries. 
+Club structures are not standardised but most are led by early career researchers, meet regularly, are English speaking, and discuss issues related to reproducibility, open research, and research quality (https://reproducibilitea.org/).
+
+We have close relationships with the community, for example KD foundered and led the University of Bristol ReproducibiliTea club and was a member of the ReproducibiliTeam.
 The internationality of the group will allow us to recruit people from different countries and contexts and our existing relationships with the clubs, and series as a whole, means we can access them and invite them to participate.
 Participants will receive financial reimbursement for their time.
 
