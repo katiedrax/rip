@@ -25,7 +25,7 @@ Educational interventions offer one way to overcoming this barrier.
 Gamified interventions, in particular, could encourage initial engagement with data sharing training. 
 However, a recent review of the gamification literature concluded that the effects of gamification are poorly understood, with limited evidence regarding whether gamification does indeed increase engagement [@dichev2017].
 
-The University of Bristol Research Data Service recently created the Researchers, Impact, and Publications (RIP) game (Merrett & Warren, 2020). 
+The University of Bristol Research Data Service recently created the Researchers, Impact, and Publications (RIP) game [@merrett2020]. 
 The creators' initial intention for the game was to use it as a talking point, or icebreaker, with people who were interested in data sharing. 
 The game was not designed with a specific theoretical framework or outcome in mind - the creators expected others to use it in whatever way they saw fit.
 Adapted from “Cards Against Humanity”, the RIP game aims help people learn about research data management and its relationship to funding and publishing research. 
@@ -51,14 +51,30 @@ The creators of the RIP game initially designed the game to be delivered with an
 
 ### Engagement questionnaire
 
-`r # add`
+This survey from @unal2019 available at https://inlitas.org/survey/index.php/493475?newtest=Y&lang=en looks pretty good let me know if you think we should replicate it.
+
+Q1. 
+Training on Open Data helps researchers make their data available to others so that their results can be checked and the data reused for other purposes. 
+This training will teach researchers to: produce data which are FAIR: Findable, Accessible, Interoperable, and Reusable; find repositories; use appropriate data formats; manage metadata (information describing datasets); ensure non-identifiability (for researchers working with human data).
+Please mark the statements below which you broadly agree with, regarding Open Data. 
+You may mark as many as you like.
+
+* I am familiar with this concept
+* I am NOT familiar with this concept
+* I would find training on this useful
+* I already engage with this practice
+* I think my organisation already provides sufficient training on this
+
+Q2. We are considering organising a data sharing training session at your organisation. 
+If you would like to be invited to this event please provide an email we can send the invitation to below.
+
 
 ### Data sharing measure
 
 To measure data sharing across multiple disciplines, institutions, languages, and countries we will need to measure universal indicators of data sharing. 
 There are numerous checklists and guidelines for data management plans and data sharing, but most are designed for specific types of data and few aims to be universal. 
 One example of famous universal guidelines are the FAIR principles who claim, “All scholarly digital research objects—from data to analytical pipelines—benefit from application of these principles”. 
-Regarding universality, Kirsty Merrett and Christopher Warren suggested the most universal aspect of data sharing will be the data deposit record. 
+Regarding universality, KM and CW suggested the most universal aspect of data sharing will be the data deposit record. 
 
 The record includes:
 
@@ -69,7 +85,7 @@ The record includes:
 * Identifier
 * Metadata
 
-Our data sharing measure could adapt the FAIR principles, Kirsty and Christopher’s suggestions, or a combination.
+Our data sharing measure could adapt the FAIR principles, KM and CW’s suggestions, or a combination.
 Essentially universal standards about the “content” of shared data will be very difficult to develop. 
 Universal standards about the presence of shared data will be easier.
 
@@ -103,8 +119,8 @@ Based on this attendance, we will aim to recruit as many clubs as possible but e
 
 ## Withdrawal of participants
 
-We will inform participants that they can withdraw from the study at any time before they begin their post-intervention quesionnaire.
-Only individuals who submit their post-intervention questionnaire will be reimbursed.
+We will inform participants that they can withdraw from the study at any time before they begin their engagement quesionnaire.
+Only individuals who submit their engagement questionnaire will be reimbursed.
 
 # Randomisation
 
@@ -117,7 +133,7 @@ The study will require the following materials
 * Consent form
 * Participant information sheet
 * Intervention instructions
-* Post-intervention questionnaire
+* engagement questionnaire
 
 # Procedures
 
@@ -127,7 +143,7 @@ We will ask them to distribute the sheet to their members and will answer any qu
 4. Randomise the club to one of the three arms, if they agree to participate.
 5. Send organiser the instructions for the intervention arm they are randomised to.
 4. ReproducibiliTea club holds intervention meeting when convenient
-5. ReproducibiliTea members respond to post-intervention quesionnaire
+5. ReproducibiliTea members respond to engagement quesionnaire
 6. Members reimbursed
 
 # Statistical Plan
@@ -145,7 +161,7 @@ Therefore, participants will be given sufficient time to read the information, c
 `r # is this enough for informed consent?`
 On [time when this will happen?], participants will be given the opportunity to read the information sheet again and ask the investigator questions. 
 Written consent will then be obtained [when should this be done].
-Participants will be informed that they are free to withdraw at any time before they begin their post-intervention questionnaire.
+Participants will be informed that they are free to withdraw at any time before they begin their engagement questionnaire.
 
 # Safety
 
@@ -156,7 +172,7 @@ There are no expected hazards, due to the study consisting of a meeting and ques
 All aspects of the General Data Protection Regulation (GDPR) and the Data Protection Act (DPA) 2018 will be adhered to.
 Electronic data will be anonymised by a unique numeric identifier. 
 Original computer data files will be backed up on a secured University of Bristol network drive.
-In accordance with the FAIR (Findable, Accessible, Interoperable, Reusable) principles (Wilkinson, 2016), and at the end of the study, electronic study data (including finalised data sheet) will be transferred to a designated University of Bristol Research Data Storage Facility (https://data.bris.ac.uk/data/) afor long-term archiving. 
+In accordance with the FAIR (Findable, Accessible, Interoperable, Reusable) principles [@wilkinson2016], and at the end of the study, electronic study data (including finalised data sheet) will be transferred to a designated University of Bristol Research Data Storage Facility (https://data.bris.ac.uk/data/) afor long-term archiving. 
 Study data will be kept for a minimum of 15 years. 
 At the appropriate time the data sheet will be locked and made open using the University of Bristol Research Data Repository.
 Consent forms will be retained by the School of Psychological Science for a period of 10 years after study completion.
@@ -175,13 +191,9 @@ Data will be anonymous so we are unable to withdraw data as there is no way to t
 ```{r, echo=F}
 #* bots
 #* satisficing/random responding = low effort, skimming instructions, #skimming questions, guessing answers
-#* researching ansswers
 ```
 
 We will randomise the order of questionnaire items and response options to reduce order effects. 
-We will ask participants not do not research  answers to questions and ask them at the end if they did. 
-We will compare the results of participants who did use the internet for their answer with those who did not.
-`r # yeah?`
 We will also exclude any responses completed in an implausibly short amount of time on the questionnaire.
 Collecting the data using Qualtrics creates the risk of automated form fillers ("bots") and duplicate responses.
 We will include at least one compulsory open-ended question and a false question to identify bots.
@@ -247,7 +259,7 @@ Christopher.Warren@bristol.ac.uk
 
 # Contributions and Authorship
 
-KD wrote the first draft of the protocol and is the guarantor of the project. 
+KD wrote the first draft of the protocol and is the guarantor of the project.
 MM provided feedback and comments for the protocol and will supervise the project.
 
 # Funding Source
@@ -260,7 +272,3 @@ The funder will have no involvement in any aspects of the study design and condu
 KM and CW are the creators of the RIP game.
 
 # References
-
-Merrett, K., & Warren, C. (2020). Researchers, Impact & Publications (R.I.P.) Game data (01-2020). https://doi.org/10.5523/bris.1nufzjw3m9ho72cwisj1pwc75h
-
-Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18 
